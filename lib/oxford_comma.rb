@@ -24,7 +24,7 @@ def oxford_comma(array)
     array.join(" and ")
   else
     tempvar = array.pop
-    returnvar = array.join(", ") + ", and" + tempvar
+    returnvar = array.join(", ") + ", and " + tempvar
     returnvar
   end
 end
